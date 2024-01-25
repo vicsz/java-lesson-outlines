@@ -102,9 +102,16 @@ Never store passwords or API keys in plain source control management (SCM). Such
 Storing simple code snippets, examples, and technology spikes on your public GitHub serves three key purposes: it acts as a versioned backup, aids in self-promotion, and provides a quick reference for future use.
 
 # Task Four: Adding DevOps Practices to Your Project
-- **Automated Build**: Set up GitHub Actions to automate builds upon commits.
-- **Build Failure Notification**: Configure notifications to a Microsoft Teams channel for build failures, using GitHub secrets for URL storage and creating an incoming webhook in MS Teams.
-- **GitHub Action Status Badge**: Add a badge to your `README.md` to display the build status.
+## Automated Build
+- Set up GitHub Actions by adding a `.github/workflows/build.yml` script in your repository.
+- This script should define steps to run the Gradle wrapper and execute builds on every commit to the master branch.
+## Build Failure Notification
+- Configure notifications to a Microsoft Teams channel for build failures.
+- Use GitHub secrets to securely store the webhook URL for MS Teams.
+- Create an incoming webhook in MS Teams and link it to your GitHub Actions.
+- Test the setup by committing a change that intentionally breaks the build, like adding gibberish to your Java file.
+## GitHub Action Status Badge
+- Add a status badge to your `README.md` to display the build status. This badge is automatically updated based on the latest build results.
 
 ## GitHub Actions
 GitHub Actions offer agentless and containerized build environments, where build scripts are part of the application repository. This approach significantly lowers the entry barrier compared to traditional CI tools like Jenkins.
@@ -121,6 +128,8 @@ Utilize incoming webhooks for quick alerts in DevOps processes, such as build fa
 ## Tip #13: Monitor Dependencies with Webhooks
 Use webhooks to automatically notify relevant teams when there are issues with APIs or dependencies they manage, enhancing cross-team communication and issue resolution.
 
+*Nothing motivates a quick fix quite like a webhook-triggered rage icon popping up in your chat every time an API breaks. It's like a virtual 'fix-it' nudge!*
+
 ## Tip #14: Use Gradle/Maven Wrapper for Build Agents
 Implement Gradle or Maven wrappers in your projects to ensure build agents don't require specific versions of Gradle or Maven, facilitating smoother builds.
 
@@ -129,10 +138,15 @@ Integrate Continuous Integration and Continuous Deployment (CI/CD) into your pro
 
 *Setting up CI/CD is like leaving yourself a treasure map. When you return to a project after months, you'll find the 'X' marking 'how to build this thing.'*
 
+## Tip #16: Notifications on New Broken Builds
+Set up notifications for new broken builds in team projects. Encourage team members to promptly fix or rollback changes if the issue isn't resolved quickly. This practice fosters a culture of accountability and rapid response.
+
 # Backlog of Topics
 
+- **Product Ideation** (RAVL Toolbox) 
 - **Cloud Deployments and Overview**
   - Including Blue/Green and Zero-Downtime Deployments.
+- **Cloud Deployment Styles**: Including Function as a Service (FaaS), Platform as a Service (PaaS), Kubernetes (K8S), Docker, AWS Fargate, and more.
 - **Automated Testing**
 - **Artifact Versioning**
 - **Data Stores**
@@ -140,6 +154,7 @@ Integrate Continuous Integration and Continuous Deployment (CI/CD) into your pro
 - **Logging, Metrics, Tracing, and Alerting**
 - **Microsoft Teams Bots and Integration**
 - **AI-Related Topics**
+- **Security** -- including authentication
 - **Retrospectives: Driving Change as a Team Member**
 - **Static Code Analysis**
 - **Pair Programming**
