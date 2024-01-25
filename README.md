@@ -5,7 +5,9 @@ Java is a high-level, class-based, object-oriented programming language that fac
 Static typing in programming languages means that variable types are explicitly declared and determined at compile time, contrasting with dynamic typing where types are understood at runtime. This feature in Java enhances error detection during build and contributes to code reliability and efficiency.
 
 ## Tip #1: Prefer Static Typing
-Embrace static typing in languages, including JavaScript, to mitigate a wide range of errors, leading to more robust and maintainable code.
+Embrace static typing in languages, including JavaScript (i.e. use Typescript), to mitigate a wide range of errors, leading to more robust and maintainable code.
+
+*Choosing dynamic typing for a quick speed boost is like sprinting in flip-flops. It might feel fast at first, but you'll likely trip up in the long run!*
 
 ## Build Once, Run Anywhere
 This Java principle signifies the ability to compile Java code, often into JAR files, which can be run on any device equipped with a Java Virtual Machine, regardless of the underlying architecture.
@@ -64,9 +66,34 @@ Maven and Gradle are build automation tools used in Java projects for dependency
 ## Tip #6: Prefer Gradle Over Maven
 Choose Gradle for build automation due to its readability and ease of use compared to Maven.
 
+## Tip #7: Regularly Update Dependencies
+Regularly updating dependencies in your Gradle or Maven project is crucial. Neglecting this can lead to security vulnerabilities, as seen in the [Equifax breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach).
+
+## OpenAI API
+The OpenAI API provides REST-based access to a wide range of AI functionalities, including but not limited to text generation. These capabilities can be seamlessly integrated into various applications.
+
+## Tip #8: Explore with OpenAI API Playground
+For hands-on experimentation with the OpenAI API, visit the [OpenAI API Overview](https://platform.openai.com/docs/overview). It's an excellent resource for trying out different prompts and settings before implementing them in your application.
+
+## Tip #9: Verify REST Calls with curl
+Familiarize yourself with using `curl` to quickly test REST API calls without writing calls. For example, to call the OpenAI API:
+   ```bash
+   curl https://api.openai.com/v1/engines/davinci-codex/completions \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer YOUR_API_KEY" \
+     -d '{
+       "prompt": "Translate the following English text to French: 'Hello, how are you?'",
+       "max_tokens": 60
+     }'
+   ```
+
 # Task Three: Java Web Application with OpenAI API Integration
 - Set up OpenAI API access by visiting [OpenAI API Overview](https://platform.openai.com/docs/overview).
 - Generate an OpenAI API key.
 - Implement an application using Spring Boot to interact with the OpenAI API.
 - Develop a feature allowing user input text to be sent to OpenAI, receiving and displaying the response.
 - Ensure API keys are not stored in Java code or source control, but injected via environment variables.
+- Add the project to your public GitHub repository, ensuring a comprehensive `README.md` is included, detailing the project setup and functionality.
+
+## Tip #10: Securely Store Keys and Passwords
+Never store passwords or API keys in plain source control management (SCM). Such practices can lead to security breaches. 
