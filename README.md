@@ -1,5 +1,3 @@
-**Outline for Java Programming Lesson**
-
 ## Java (Programming Language)
 Java is a high-level, class-based, object-oriented programming language that facilitates cross-platform application development through its write-once, run-anywhere approach. Known for its use in backend development, enterprise solutions, and Android app creation, Java's functionality stems from its conversion of code into bytecode for the Java Virtual Machine, and it's recognized for its role in creating the best selling game of all time.
 
@@ -41,21 +39,19 @@ Homebrew, a package manager for Mac, simplifies the installation of software lik
 
 ---
 
-## Practical Tasks
-
-### Task One: Java HelloWorld Application
+# Task One: Java HelloWorld Application
 - Install JDK using Homebrew on macOS.
 - Develop a HelloWorld program in Java that, when run, outputs "HelloWorld" to the console and then closes.
 - Compile and run the program using `javac` and `java` commands.
 - Verify the installed JDK version by running `java -version` and `javac -version` in the terminal.
 
-### Tip #5: Java Version Compatibility
+## Tip #5: Java Version Compatibility
 Be aware that Java code compiled with a newer JDK version cannot run on an older JRE. Always ensure compatibility between the development and runtime environments.
 
 ## Spring Boot
 Spring Boot is a framework for building stand-alone, production-grade Spring-based applications with minimal effort. It simplifies the bootstrapping and development of new Spring applications.
 
-### Task Two: Java Spring Boot HelloWorld Web Server
+# Task Two: Java Spring Boot HelloWorld Web Server
 - Setup an IDE and install Gradle via Homebrew.
 - Create a Spring Boot application that displays "Hello World" on the main URL.
 - Define project dependencies with Gradle.
@@ -68,10 +64,9 @@ Maven and Gradle are build automation tools used in Java projects for dependency
 ## Tip #6: Prefer Gradle Over Maven
 Choose Gradle for build automation due to its readability and ease of use compared to Maven.
 
-### Task Three: Java Web Application with OpenAI API Integration
+# Task Three: Java Web Application with OpenAI API Integration
 - Set up OpenAI API access by visiting [OpenAI API Overview](https://platform.openai.com/docs/overview).
 - Generate an OpenAI API key.
 - Implement an application using Spring Boot to interact with the OpenAI API.
 - Develop a feature allowing user input text to be sent to OpenAI, receiving and displaying the response.
 - Ensure API keys are not stored in Java code or source control, but injected via environment variables.
-- Test
