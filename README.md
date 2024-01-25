@@ -102,15 +102,15 @@ Never store passwords or API keys in plain source control management (SCM). Such
 Storing simple code snippets, examples, and technology spikes on your public GitHub serves three key purposes: it acts as a versioned backup, aids in self-promotion, and provides a quick reference for future use.
 
 # Task Four: Adding DevOps Practices to Your Project
-## Automated Build
+## Step 1 - Automated Builds
 - Set up GitHub Actions by adding a `.github/workflows/build.yml` script in your repository.
 - This script should define steps to run the Gradle wrapper and execute builds on every commit to the master branch.
-## Build Failure Notification
+## Step 2 - Build Failure Notification
 - Configure notifications to a Microsoft Teams channel for build failures.
 - Use GitHub secrets to securely store the webhook URL for MS Teams.
 - Create an incoming webhook in MS Teams and link it to your GitHub Actions.
 - Test the setup by committing a change that intentionally breaks the build, like adding gibberish to your Java file.
-## GitHub Action Status Badge
+## Step 3 - GitHub Action Status Badge
 - Add a status badge to your `README.md` to display the build status. This badge is automatically updated based on the latest build results.
 
 ## GitHub Actions
