@@ -1,5 +1,5 @@
 ## Java (Programming Language)
-Java is a high-level, class-based, object-oriented programming language that facilitates cross-platform application development through its write-once, run-anywhere approach. Known for its use in backend development, enterprise solutions, and Android app creation, Java's functionality stems from its conversion of code into bytecode for the Java Virtual Machine, and it's recognized for its role in creating the best selling game of all time.
+Java is a high-level, class-based, object-oriented programming language that facilitates cross-platform application development through its write-once, run-anywhere approach. Known for its use in backend development, enterprise solutions, and Android app creation, Java's functionality stems from its conversion of code into bytecode for the Java Virtual Machine, and it was used to create the [best selling game of all time](https://en.wikipedia.org/wiki/Minecraft).
 
 ## Static Typing
 Static typing in programming languages means that variable types are explicitly declared and determined at compile time, contrasting with dynamic typing where types are understood at runtime. This feature in Java enhances error detection during build and contributes to code reliability and efficiency.
@@ -28,7 +28,7 @@ JDK is a comprehensive suite for developing, compiling, and running Java applica
 Kotlin is an advanced, more concise version of Java, offering true null safety. It is the preferred language for Android app development, promoting cleaner code and modern programming features.
 
 ## Tip #2: Prefer Kotlin for JVM-based Development
-For new projects on the JVM, particularly in mobile development, Kotlin is the recommended choice due to its modern features and ease of use.
+For new projects on the JVM, particularly in mobile development, Kotlin is the recommended choice due to its modern features and ease of use. 
 
 ## Tip #3: Use ChatGPT for Java Development Assistance
 Utilize ChatGPT, especially the Plus/4.0 version, for guidance in Java coding, understanding best practices, and initial project setup. For JavaScript developers, ask for help in translating JavaScript functionalities into Java.
@@ -143,12 +143,15 @@ Set up notifications for new broken builds in team projects. Encourage team memb
 
 # Backlog of Topics
 
-- **Product Ideation** (RAVL Toolbox) 
+- **Product Ideation** (RAVL Toolbox) - insert AI buzzwords here 
 - **Cloud Deployments and Overview**
   - Including Blue/Green and Zero-Downtime Deployments.
 - **Cloud Deployment Styles**: Including Function as a Service (FaaS), Platform as a Service (PaaS), Kubernetes (K8S), Docker, AWS Fargate, and more.
-- **Automated Testing**
+- **Deploy Pipelines**
+- **Efficient IDE usage** 
+- **Automated Testing** - Unit-Testing, Parametirized Tests, JUnit, etc 
 - **Artifact Versioning**
+- **Trunk based development** -- with WIP and feature toggling (implcit and explicit)
 - **Data Stores**
 - **Exception Handling for Unknown Errors**
 - **Logging, Metrics, Tracing, and Alerting**
@@ -157,7 +160,9 @@ Set up notifications for new broken builds in team projects. Encourage team memb
 - **Security** -- including authentication
 - **Retrospectives: Driving Change as a Team Member**
 - **Static Code Analysis**
-- **Pair Programming**
+- **Code Maintainability** -- including refactoring
+- **Pair Programming** -- and alternative code peer review styles
+- **Cloud-Native Development** -- mainly don't store local state 
 - **[Getting Things Done When You're only a Grunt](https://www.joelonsoftware.com/2001/12/25/getting-things-done-when-youre-only-a-grunt/)**
 - **To Be Announced (TBA)**
 
