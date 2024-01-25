@@ -158,5 +158,6 @@ Set up notifications for new broken builds in team projects. Encourage team memb
 - **Retrospectives: Driving Change as a Team Member**
 - **Static Code Analysis**
 - **Pair Programming**
+- **[Getting Things Done When You're only a Grunt](https://www.joelonsoftware.com/2001/12/25/getting-things-done-when-youre-only-a-grunt/)**
 - **To Be Announced (TBA)**
 
