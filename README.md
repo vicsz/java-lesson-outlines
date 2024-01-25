@@ -166,7 +166,8 @@ Set up notifications for new broken builds in team projects. Encourage team memb
 - **Cloud-Native Development** -- mainly don't store local state 
 - **Spring Boot** -- config, dependecy injection, logging, properties, actuator, etc
 - **Anti-Patterns and Code Smells** -- i.e. reinventing the wheel, premature optimization,
-- **Best Practices** -- YAGNI, DRY, Boy Scout Rule, etc 
+- **Best Practices** -- YAGNI, DRY, Boy Scout Rule, etc
+- **Agile, Lean, Extreme Programming** - Overview 
 - **[Getting Things Done When You're only a Grunt](https://www.joelonsoftware.com/2001/12/25/getting-things-done-when-youre-only-a-grunt/)**
 - **To Be Announced (TBA)**
 
