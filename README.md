@@ -97,3 +97,51 @@ Familiarize yourself with using `curl` to quickly test REST API calls without wr
 
 ## Tip #10: Securely Store Keys and Passwords
 Never store passwords or API keys in plain source control management (SCM). Such practices can lead to security breaches. 
+
+## Tip #11: Utilize Public GitHub for Code Snippets
+Storing simple code snippets, examples, and technology spikes on your public GitHub serves three key purposes: it acts as a versioned backup, aids in self-promotion, and provides a quick reference for future use.
+
+# Task Four: Adding DevOps Practices to Your Project
+- **Automated Build**: Set up GitHub Actions to automate builds upon commits.
+- **Build Failure Notification**: Configure notifications to a Microsoft Teams channel for build failures, using GitHub secrets for URL storage and creating an incoming webhook in MS Teams.
+- **GitHub Action Status Badge**: Add a badge to your `README.md` to display the build status.
+
+## GitHub Actions
+GitHub Actions offer agentless and containerized build environments, where build scripts are part of the application repository. This approach significantly lowers the entry barrier compared to traditional CI tools like Jenkins.
+
+## Maven/Gradle Wrapper
+These wrappers ensure that the correct version of the build script engine is used, regardless of what's installed on the build agent. It simplifies build processes and ensures consistency across environments.
+
+## Incoming Webhook
+An incoming webhook is a simple way to post messages from external sources into platforms like Microsoft Teams. It allows applications to send automated messages or updates into a Teams channel.
+
+## Tip #12: Leverage Incoming Webhooks
+Utilize incoming webhooks for quick alerts in DevOps processes, such as build failures or updates, in collaboration tools like MS Teams and Slack.
+
+## Tip #13: Monitor Dependencies with Webhooks
+Use webhooks to automatically notify relevant teams when there are issues with APIs or dependencies they manage, enhancing cross-team communication and issue resolution.
+
+## Tip #14: Use Gradle/Maven Wrapper for Build Agents
+Implement Gradle or Maven wrappers in your projects to ensure build agents don't require specific versions of Gradle or Maven, facilitating smoother builds.
+
+## Tip #15: Incorporate CI/CD from Day One
+Integrate Continuous Integration and Continuous Deployment (CI/CD) into your projects, personal or public, from the start. Set up build-on-commit with notifications.
+
+*Setting up CI/CD is like leaving yourself a treasure map. When you return to a project after months, you'll find the 'X' marking 'how to build this thing.'*
+
+# Backlog of Topics
+
+- **Cloud Deployments and Overview**
+  - Including Blue/Green and Zero-Downtime Deployments.
+- **Automated Testing**
+- **Artifact Versioning**
+- **Data Stores**
+- **Exception Handling for Unknown Errors**
+- **Logging, Metrics, Tracing, and Alerting**
+- **Microsoft Teams Bots and Integration**
+- **AI-Related Topics**
+- **Retrospectives: Driving Change as a Team Member**
+- **Static Code Analysis**
+- **Pair Programming**
+- **To Be Announced (TBA)**
+
