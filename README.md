@@ -150,19 +150,21 @@ Set up notifications for new broken builds in team projects. Encourage team memb
 - **Deploy Pipelines**
 - **Efficient IDE usage** 
 - **Automated Testing** - Unit-Testing, Parametirized Tests, JUnit, etc 
-- **Artifact Versioning**
+- **Artifact Versioning** -- include release versioning, hotfixing, cherrypicking, version endpoints, tracking stories with deploys, including GitHash (i.e. solving "what exaclty is deployed, what's in this build ")
 - **Trunk based development** -- with WIP and feature toggling (implcit and explicit)
-- **Data Stores**
-- **Exception Handling for Unknown Errors**
-- **Logging, Metrics, Tracing, and Alerting**
-- **Microsoft Teams Bots and Integration**
-- **AI-Related Topics**
+- **Data Stores** -- Cache / CDN / SQL / etc 
+- **Exception Handling for Unknown Errors** -- combined with Webhook or Teams notifications or Email notificaitons 
+- **Logging (including structured), Metrics, Tracing (trace-id), Alerting, Dashboards**
+- **GitHub Platform Usage** -- i.e. using the whole suite 
+- **Microsoft Teams Bots and Integration** -- seems like a cool option for RAVL toolcase. 
+- **AI-Related Topics** -- because why not 
 - **Security** -- including authentication
-- **Retrospectives: Driving Change as a Team Member**
-- **Static Code Analysis**
+- **Retrospectives:** -- as a tool to drive change at client 
+- **Static Code Analysis** -- i.e. Sonar
 - **Code Maintainability** -- including refactoring
 - **Pair Programming** -- and alternative code peer review styles
 - **Cloud-Native Development** -- mainly don't store local state 
+- **Spring Boot** -- config, dependecy injection, logging, properties, actuator, etc 
 - **[Getting Things Done When You're only a Grunt](https://www.joelonsoftware.com/2001/12/25/getting-things-done-when-youre-only-a-grunt/)**
 - **To Be Announced (TBA)**
 
