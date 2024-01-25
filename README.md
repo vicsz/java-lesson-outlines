@@ -149,7 +149,7 @@ Set up notifications for new broken builds in team projects. Encourage team memb
 - **Cloud Deployment Styles**: Including Function as a Service (FaaS), Platform as a Service (PaaS), Kubernetes (K8S), Docker, AWS Fargate, and more.
 - **Deploy Pipelines**
 - **Efficient IDE usage** 
-- **Automated Testing** - Unit-Testing, Parametirized Tests, JUnit, etc 
+- **Automated Testing** - Unit-Testing, Parametirized Tests, JUnit, Spook, etc 
 - **Artifact Versioning** -- include release versioning, hotfixing, cherrypicking, version endpoints, tracking stories with deploys, including GitHash (i.e. solving "what exaclty is deployed, what's in this build ")
 - **Trunk based development** -- with WIP and feature toggling (implcit and explicit)
 - **Data Stores** -- Cache / CDN / SQL / etc 
@@ -164,7 +164,9 @@ Set up notifications for new broken builds in team projects. Encourage team memb
 - **Code Maintainability** -- including refactoring
 - **Pair Programming** -- and alternative code peer review styles
 - **Cloud-Native Development** -- mainly don't store local state 
-- **Spring Boot** -- config, dependecy injection, logging, properties, actuator, etc 
+- **Spring Boot** -- config, dependecy injection, logging, properties, actuator, etc
+- **Anti-Patterns and Code Smells** -- i.e. reinventing the wheel, premature optimization,
+- **Best Practices** -- YAGNI, DRY, Boy Scout Rule, etc 
 - **[Getting Things Done When You're only a Grunt](https://www.joelonsoftware.com/2001/12/25/getting-things-done-when-youre-only-a-grunt/)**
 - **To Be Announced (TBA)**
 
