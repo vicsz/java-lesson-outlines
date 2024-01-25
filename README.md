@@ -143,7 +143,7 @@ Set up notifications for new broken builds in team projects. Encourage team memb
 
 # Backlog of Topics
 
-- **Product Ideation** (RAVL Toolbox) - insert AI buzzwords here 
+- **Product Ideation** (RAVL Toolbox) - insert AI buzzwords here (Lambda function for chunking / processing / summarizing .. large pdfs -- for Katie). 
 - **Cloud Deployments and Overview**
   - Including Blue/Green and Zero-Downtime Deployments.
 - **Cloud Deployment Styles**: Including Function as a Service (FaaS), Platform as a Service (PaaS), Kubernetes (K8S), Docker, AWS Fargate, and more.
