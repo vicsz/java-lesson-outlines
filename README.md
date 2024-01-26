@@ -42,7 +42,7 @@ When it comes to Java IDEs, the landscape is dominated by tools like IntelliJ ID
 
 Visual Studio Code, with the right extensions, can serve as a lightweight IDE for Java. Eclipse, another major player, is known for its extensive plugin system.
 
-Choosing the right IDE is all about what works best for you. And if you're still coding Java in Vi or Emacs, that's a bold choice. 
+Choosing the right IDE is all about what works best for you. And if you're still coding Java in Vi or Emacs, that's a *bold* choice. 
 
 ## Tip #4: Use Homebrew for Installing Java on Mac
 Homebrew, a package manager for Mac, simplifies the installation of software like the JDK, offering an efficient way to manage software installations and updates on macOS.
