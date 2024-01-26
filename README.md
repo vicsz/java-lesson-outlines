@@ -61,9 +61,12 @@ Be aware that Java code compiled with a newer JDK version cannot run on an older
 ## Spring Boot
 Spring Boot is a framework for building stand-alone, production-grade Spring-based applications with minimal effort. It simplifies the bootstrapping and development of new Spring applications.
 
+## Spring Initializr
+This tool is akin to create-react-app for React, but for Spring Boot. It streamlines the creation of new projects by generating a basic project structure with chosen dependencies like Spring Web. It helps avoid common setup errors in Java, making it a practical choice for efficiently initializing Spring Boot applications. It can be run from the commandline (when installed) or from the [website](https://start.spring.io).
+
 # Task Two: Java Spring Boot HelloWorld Web Server
 - Setup an IDE and install Gradle via Homebrew.
-- Create a Spring Boot application that displays "Hello World" on the main URL.
+- Create a Spring Boot application that displays "Hello World" on the main URL. Consider using the Spring Initializr website to quickly create a project skeleton. Make sure to add the 'Spring Web' dependency to your project.
 - Define project dependencies with Gradle.
 - Compile the application into a JAR file and run it.
 - Verify the web server's functionality and terminate the server.
