@@ -72,7 +72,7 @@ Spring Boot is a framework for building stand-alone, production-grade Spring-bas
 Maven and Gradle are build automation tools used in Java projects for dependency management and project compilation. In the NodeJS space, their equivalents are npm and Yarn.
 
 ## Tip #6: Prefer Gradle Over Maven
-Choose Gradle for build automation due to its readability and ease of use compared to Maven.
+Gradle is almost always a better choice than Maven for JVM build automation, especially in larger projects. A key advantage of Gradle is its speed; it can be up to 10x faster than Maven (which helps a lot for other projects). This is due to features like incremental builds and build caching, which reduce unnecessary work. Gradle's build scripts are also more readable and concise, offering an easier and more efficient development experience.
 
 ## Tip #7: Regularly Update Dependencies
 Regularly updating dependencies in your Gradle or Maven project is crucial. Neglecting this can lead to security vulnerabilities, as seen in the [Equifax breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach).
