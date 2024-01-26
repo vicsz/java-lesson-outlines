@@ -74,16 +74,20 @@ Maven and Gradle are build automation tools used in Java projects for dependency
 ## Tip #6: Prefer Gradle Over Maven
 Gradle is almost always a better choice than Maven for JVM build automation, especially in larger projects. A key advantage of Gradle is its speed; it can be up to 10x faster than Maven (which helps a lot for other projects). This is due to features like incremental builds and build caching, which reduce unnecessary work. Gradle's build scripts are also more readable and concise, offering an easier and more efficient development experience.
 
-## Tip #7: Regularly Update Dependencies
+## Tip #7: Consider Switching from Maven to Gradle for Efficiency in Legacy Projects
+
+In situations where Maven builds in legacy projects start to slow down significantly, it's advisable to consider a switch to Gradle. This transition is particularly recommended when build times exceed 5 minutes. Gradle's efficiency in handling larger, more complex builds can substantially improve build times and overall project performance. This recommendation can be an important pitch to clients, highlighting a proactive approach to enhancing development efficiency in existing projects.
+
+## Tip #8: Regularly Update Dependencies
 Regularly updating dependencies in your Gradle or Maven project is crucial. Neglecting this can lead to security vulnerabilities, as seen in the [Equifax breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach).
 
 ## OpenAI API
 The OpenAI API provides REST-based access to a wide range of AI functionalities, including but not limited to text generation. These capabilities can be seamlessly integrated into various applications.
 
-## Tip #8: Explore with OpenAI API Playground
+## Tip #9: Explore with OpenAI API Playground
 For hands-on experimentation with the OpenAI API, visit the [OpenAI API Overview](https://platform.openai.com/docs/overview). It's an excellent resource for trying out different prompts and settings before implementing them in your application.
 
-## Tip #9: Verify REST Calls with curl
+## Tip #10: Verify REST Calls with curl
 Familiarize yourself with using `curl` to quickly test REST API calls without writing calls. For example, to call the OpenAI API:
    ```bash
    curl https://api.openai.com/v1/engines/davinci-codex/completions \
@@ -103,10 +107,10 @@ Familiarize yourself with using `curl` to quickly test REST API calls without wr
 - Ensure API keys are not stored in Java code or source control, but injected via environment variables.
 - Add the project to your public GitHub repository, ensuring a comprehensive `README.md` is included, detailing the project setup and functionality.
 
-## Tip #10: Securely Store Keys and Passwords
+## Tip #11: Securely Store Keys and Passwords
 Never store passwords or API keys in plain source control management (SCM). Such practices can lead to security breaches. 
 
-## Tip #11: Utilize Public GitHub for Code Snippets
+## Tip #12: Utilize Public GitHub for Code Snippets
 Storing simple code snippets, examples, and technology spikes on your public GitHub serves three key purposes: it acts as a versioned backup, aids in self-promotion, and provides a quick reference for future use.
 
 # Task Four: Adding DevOps Practices to Your Project
@@ -130,23 +134,23 @@ These wrappers ensure that the correct version of the build script engine is use
 ## Incoming Webhook
 An incoming webhook is a simple way to post messages from external sources into platforms like Microsoft Teams. It allows applications to send automated messages or updates into a Teams channel.
 
-## Tip #12: Leverage Incoming Webhooks
+## Tip #13: Leverage Incoming Webhooks
 Utilize incoming webhooks for quick alerts in DevOps processes, such as build failures or updates, in collaboration tools like MS Teams and Slack.
 
-## Tip #13: Monitor Dependencies with Webhooks
+## Tip #14: Monitor Dependencies with Webhooks
 Use webhooks to automatically notify relevant teams when there are issues with APIs or dependencies they manage, enhancing cross-team communication and issue resolution.
 
 *Nothing motivates a quick fix quite like a webhook-triggered rage icon popping up in your chat every time an API breaks. It's like a virtual 'fix-it' nudge!*
 
-## Tip #14: Use Gradle/Maven Wrapper for Build Agents
+## Tip #15: Use Gradle/Maven Wrapper for Build Agents
 Implement Gradle or Maven wrappers in your projects to ensure build agents don't require specific versions of Gradle or Maven, facilitating smoother builds.
 
-## Tip #15: Incorporate CI/CD from Day One
+## Tip #16: Incorporate CI/CD from Day One
 Integrate Continuous Integration and Continuous Deployment (CI/CD) into your projects, personal or public, from the start. Set up build-on-commit with notifications.
 
 *Setting up CI/CD is like leaving yourself a treasure map. When you return to a project after months, you'll find the 'X' marking 'how to build this thing.'*
 
-## Tip #16: Notifications on New Broken Builds
+## Tip #17: Notifications on New Broken Builds
 Set up notifications for new broken builds in team projects. Encourage team members to promptly fix or rollback changes if the issue isn't resolved quickly. This practice fosters a culture of accountability and rapid response.
 
 # Backlog of Topics
