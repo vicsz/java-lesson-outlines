@@ -172,7 +172,7 @@ Set up notifications for new broken builds in team projects. Encourage team memb
 - **Logging (including structured), Metrics, Tracing (trace-id), Alerting, Dashboards**
 - **GitHub Platform Usage** -- i.e. using the whole suite 
 - **Microsoft Teams Bots and Integration** -- seems like a cool option for RAVL toolcase. 
-- **AI-Related Topics** -- because why not 
+- **AI-Related Topics** -- because why not -- also how to augment OpenAI API with own data. 
 - **Security** -- including authentication
 - **Retrospectives:** -- as a tool to drive change at client 
 - **Static Code Analysis** -- i.e. Sonar
