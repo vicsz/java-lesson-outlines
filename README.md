@@ -74,7 +74,7 @@ Maven and Gradle are build automation tools used in Java projects for dependency
 ## Tip #6: Prefer Gradle Over Maven
 Gradle is almost always a better choice than Maven for JVM build automation, especially in larger projects. A key advantage of Gradle is its speed; it can be up to 10x faster than Maven (which helps a lot for other projects). This is due to features like incremental builds and build caching, which reduce unnecessary work. Gradle's build scripts are also more readable and concise, offering an easier and more efficient development experience.
 
-## Tip #7: Consider Switching from Maven to Gradle for Efficiency in Legacy Projects
+## Tip #7: Pitch a switch from Maven to Gradle for Legacy JVM projects with slow build times
 
 In situations where Maven builds in legacy projects start to slow down significantly, it's advisable to consider a switch to Gradle. This transition is particularly recommended when build times exceed 5 minutes. Gradle's efficiency in handling larger, more complex builds can substantially improve build times and overall project performance. This recommendation can be an important pitch to clients, highlighting a proactive approach to enhancing development efficiency in existing projects.
 
