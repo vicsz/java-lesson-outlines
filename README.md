@@ -221,6 +221,9 @@ Implement MS Teams Incoming Web Notifications for a NodeJS or Java (Spring Boot)
 ## Utilizing Microsoft Graph API for Calendar Operations
 Explore the Microsoft Graph API to interact with Office 365 Calendar: Start by fetching your own availability for the current day. Then, as an advanced step, determine the first three available time blocks for a meeting between yourself and another person (given their full name, you'll need to resolve their user ID). Finally, implement functionality to book a meeting in the calendar based on availability. Choose your preferred programming language for this task, and document your process and findings on a public GitHub repository, showcasing your ability to integrate with Microsoft services and manage calendar data programmatically.
 
+## GitHub Artifact Versioning 
+Can be either Java (Spring Boot) or Node.js. The GitHub Action will build a simple "Hello World" web application, publish the artifact on GitHub for download, and version it in the format "1.0.GITHUB_RUN_NUMBER" or "1.0.LOCAL-BUILD" for local builds. It should correctly name the build artifact as "appname-1.0.1.jar" or "appname-1.0.1.zip." Optionally, you can include the build version in an endpoint (e.g., "/version") and display it within the root of the index.html file as a comment. This approach allows you to implement these functionalities in both Java (Spring Boot) and Node.js projects as needed.
+
 
 # Backlog of Topics
 
