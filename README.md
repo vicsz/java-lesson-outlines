@@ -64,6 +64,17 @@ Spring Boot is a framework for building stand-alone, production-grade Spring-bas
 ## Spring Initializr
 This tool is akin to create-react-app for React, but for Spring Boot. It streamlines the creation of new projects by generating a basic project structure with chosen dependencies like Spring Web. It helps avoid common setup errors in Java, making it a practical choice for efficiently initializing Spring Boot applications. It can be run from the commandline (when installed) or from the [website](https://start.spring.io).
 
+
+
+## Java Coding Conventions
+*Class Names and File Names*: In Java, the name of the public class must match the filename. This convention facilitates the organization and retrieval of code. For example, if your class is named MyClass, the filename should be MyClass.java.
+*Package Names and Directories*: Package names should correspond to the directory structure where the files reside. This alignment ensures a coherent file system organization. For instance, a package named com.example.myapp should be found in a directory path /com/example/myapp/.
+General Capitalization Standards:
+- *Class Names*: Use CamelCase for naming classes, with the first letter of each word capitalized (e.g., MyJavaClass).
+- *Method Names*: Method names should start with a lowercase letter and follow camelCase convention (e.g., myMethod()).
+- *Variable Names*: Like method names, variable names should also start with a lowercase letter and follow camelCase (e.g., myVariable).
+- *Constants*: Constants are typically defined using all uppercase letters with underscores to separate words (e.g., MAX_HEIGHT).
+
 # Task Two: Java Spring Boot HelloWorld Web Server
 - Setup an IDE and install Gradle via Homebrew.
 - Create a Spring Boot application that displays "Hello World" on the main URL. Consider using the Spring Initializr website to quickly create a project skeleton. Make sure to add the 'Spring Web' dependency to your project.
@@ -182,6 +193,31 @@ Integrate Continuous Integration and Continuous Deployment (CI/CD) into your pro
 
 ## Tip #18: Notifications on New Broken Builds
 Set up notifications for new broken builds in team projects. Encourage team members to promptly fix or rollback changes if the issue isn't resolved quickly. This practice fosters a culture of accountability and rapid response.
+
+# Task Five: Tech Spike Pairing 
+
+## MS Teams Bot Using Microsoft Bot Framework
+Create a bot that responds with "Hello World" to any message in MS Teams, using C#, Java, Python, or JavaScript. Document the creation process and code on a public GitHub repo.
+
+## Enhance GitHub Actions with OpenAI API
+Extend GitHub Actions to analyze build failure messages using the OpenAI API for clearer insights, then forward that refined analysis to an MS Teams channel. Utilize GitHub secrets to safeguard the OpenAI API access key from exposure. Document the integration process and code on a public GitHub repo.
+
+## Incoming Webhook Notification for Pull Requests
+Set up an MS Teams alert via incoming webhooks when a new Pull Request is made, including the commit message in the notification. Explore using OpenAI API to review code diffs. Document on GitHub.
+
+## Notifications to SMS Messages
+Implement a system to send notifications to SMS using AWS SNS (or Azure equivalent), focusing on build statuses or alerts. Provide a detailed setup guide on GitHub. Test it with a demo of broken builds causing a person to get a text message. 
+
+## Spring Boot Joke Web Application with Azure OpenAPI
+Develop a Spring Boot app that returns jokes based on user-submitted topics, utilizing Azure OpenAPI for joke content. Include the project and setup guide on GitHub.
+
+## GitHub Action for Web Project Deployment
+Develop a GitHub Action that orchestrates the build and deployment of a web project to a cloud platform, such as Amazon Beanstalk, with the deployment ideally being handled by the build script (Maven or Gradle) itself rather than directly within GitHub Actions. This approach allows for easier local testing. Ensure the project and its deployment steps are well-documented on GitHub.
+
+## Error Notification Integration with MS Teams for Web Applications
+Implement MS Teams Incoming Web Notifications for a NodeJS or Java (Spring Boot) web application to alert on unknown, uncaught, or critical errors. Consider adding a button to your website that triggers such an error for testing purposes. Document the process, including how to set up the webhooks and error handling logic, on a public GitHub repo.
+- Bonus: Extend the notification feature to catch and alert on browser-side JavaScript errors, offering a comprehensive monitoring solution across both server and client sides.
+
 
 # Backlog of Topics
 
