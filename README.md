@@ -113,8 +113,11 @@ Familiarize yourself with using `curl` to quickly test REST API calls without wr
 ## Tip #11: Securely Store Keys and Passwords
 Never store passwords or API keys in plain source control management (SCM). Such practices can lead to security breaches. 
 
-## Tip #12: Utilize Public GitHub for Code Snippets
-Storing simple code snippets, examples, and technology spikes on your public GitHub serves three key purposes: it acts as a versioned backup, aids in self-promotion, and provides a quick reference for future use.
+## Tip #12: Utilize Public GitHub for Code Snippets and Tech Spikes
+Storing simple code snippets, examples, and conducting technology spikes on your public GitHub serves multiple purposes. It acts as a versioned backup, aids in self-promotion, and provides a quick reference for future use. Additionally, documenting tech spikes on GitHub showcases your exploratory work with new technologies or approaches, offering insights into your problem-solving process. This practice not only benefits you by creating a tangible record of your learning and experimentation but also demonstrates your proactive engagement with emerging technologies to the wider community.
+
+## Tech Spike Challenge
+For each new technology you're exploring, create a public GitHub project. Document your process with a README.md and include a GitHub Action for building the project. This approach not only showcases your exploratory work and findings but also gets you hands-on with CI/CD practices. It’s a great way to share what you’ve learned, practice good DevOps habits, and contribute to your professional growth. Embrace this challenge to continuously expand your tech toolkit in a visible, impactful way.
 
 # Task Four: Adding DevOps Practices to Your Project
 ## Pre-Step: Create a new Spring Boot Application
@@ -145,12 +148,12 @@ Pair Programming is an agile software development technique where two programmer
 
 ## Tip #13: Incorporating Pair Programming
 Incorporate Pair Programming into your development flow to expedite the code review process. If Pair Programming is utilized, you may skip the formal pull request or immediately approve it as part of the Pair Programming session. Make sure to document who you paired with in the story comments or in the pull request itself for transparency.
-- Deciding When to Pair Program: Standups are an excellent time to decide on pair programming sessions. It's when you can discuss who needs support and align pairs based on the day's tasks.
-- Picking the Right Pair: If you're struggling with a particular codebase, pair up with the person who wrote it. This direct transfer of knowledge is incredibly efficient.
-- Remote Pairing Options: Although in-person pairing is ideal for its direct interaction, remote pairing is a viable option with tools like Visual Studio Code Live Share, Zoom, or Tuple. It ensures that geographical distance doesn't hinder the collaborative effort.
-- Focus and Productivity: Pair programming naturally boosts focus. Each partner keeps the other on task, minimizing distractions and preventing the tendency to drift off into less productive activities.
-- Ego Aside: Successful pair programming requires setting your ego aside. It's about learning and solving problems together. If someone is resistant to pairing, it's important to understand why and address any underlying issues.
-- A Valuable Tool: Consider pair programming as a valuable tool in your development toolbox. It's not just about coding together; it's a practice that enhances code quality, team knowledge, and project momentum.
+- *Deciding When to Pair Program*: Standups are an excellent time to decide on pair programming sessions. It's when you can discuss who needs support and align pairs based on the day's tasks.
+- *Picking the Right Pair*: If you're struggling with a particular codebase, pair up with the person who wrote it. This direct transfer of knowledge is incredibly efficient.
+- *Remote Pairing Options*: Although in-person pairing is ideal for its direct interaction, remote pairing is a viable option with tools like Visual Studio Code Live Share, Zoom, or Tuple. It ensures that geographical distance doesn't hinder the collaborative effort.
+- *Focus and Productivity*: Pair programming naturally boosts focus. Each partner keeps the other on task, minimizing distractions and preventing the tendency to drift off into less productive activities.
+- *Ego Aside*: Successful pair programming requires setting your ego aside. It's about learning and solving problems together. If someone is resistant to pairing, it could signal they're defensive about their code base, potentially hiding something, or simply unaware of their knowledge gaps due to the Dunning-Kruger effect. Pairing with them becomes even more crucial in these situations. Understanding phenomena like the [Dunning-Kruger effect](https://en.wikipedia.org/wiki/Dunning–Kruger_effect) and [Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) is important for navigating these dynamics, promoting a culture of openness and continuous improvement.
+- *A Valuable Tool*: Consider pair programming as a valuable tool in your development toolbox. It's not just about coding together; it's a practice that enhances code quality, team knowledge, and project momentum.
 
 ## Pair Programming Challenge
 Challenge yourself and your team to try pair programming on your engagements. Set goals to pair program a certain number of times per week and reflect on the benefits and challenges. It's a practice that, when embraced, can significantly improve the development process and team dynamics. Encourage sharing experiences and tips within the team to make the most out of this collaborative approach.
@@ -160,6 +163,9 @@ An incoming webhook is a simple way to post messages from external sources into 
 
 ## Tip #14: Leverage Incoming Webhooks
 Utilize incoming webhooks for quick alerts in DevOps processes, such as build failures or updates, in collaboration tools like MS Teams and Slack.
+
+## Webhook Integration Challenge
+Identify ways to implement webhooks back at client projects for real-time updates—think JIRA status, CI/CD outcomes, and more. It’s often easier to demonstrate the value of such integrations and ask for forgiveness than to seek permission. Dive in, set up those webhooks, and show how they can streamline project communication and efficiency.
 
 ## Tip #15: Monitor Dependencies with Webhooks
 Use webhooks to automatically notify relevant teams when there are issues with APIs or dependencies they manage, enhancing cross-team communication and issue resolution.
