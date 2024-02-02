@@ -218,6 +218,9 @@ Develop a GitHub Action that orchestrates the build and deployment of a web proj
 Implement MS Teams Incoming Web Notifications for a NodeJS or Java (Spring Boot) web application to alert on unknown, uncaught, or critical errors. Consider adding a button to your website that triggers such an error for testing purposes. Document the process, including how to set up the webhooks and error handling logic, on a public GitHub repo.
 - Bonus: Extend the notification feature to catch and alert on browser-side JavaScript errors, offering a comprehensive monitoring solution across both server and client sides.
 
+## Utilizing Microsoft Graph API for Calendar Operations
+Explore the Microsoft Graph API to interact with Office 365 Calendar: Start by fetching your own availability for the current day. Then, as an advanced step, determine the first three available time blocks for a meeting between yourself and another person (given their full name, you'll need to resolve their user ID). Finally, implement functionality to book a meeting in the calendar based on availability. Choose your preferred programming language for this task, and document your process and findings on a public GitHub repository, showcasing your ability to integrate with Microsoft services and manage calendar data programmatically.
+
 
 # Backlog of Topics
 
