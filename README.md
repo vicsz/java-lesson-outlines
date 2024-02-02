@@ -117,6 +117,12 @@ Never store passwords or API keys in plain source control management (SCM). Such
 Storing simple code snippets, examples, and technology spikes on your public GitHub serves three key purposes: it acts as a versioned backup, aids in self-promotion, and provides a quick reference for future use.
 
 # Task Four: Adding DevOps Practices to Your Project
+## Pre-Step: Create a new Spring Boot Application
+- Before diving into DevOps practices, create a Spring Boot application:
+- Go to [Spring Initializr](https://start.spring.io).
+- Ensure you add the "Spring Web" dependency to your project for web application development.
+- After generating the project, import it into IntelliJ IDEA or your preferred IDE and verify that it runs successfully.
+- Add and commit this project to your Public GitHub repo. 
 ## Step 1 - Automated Builds
 - Set up GitHub Actions by adding a `.github/workflows/build.yml` script in your repository.
 - This script should define steps to run the Gradle wrapper and execute builds on every commit to the master branch.
@@ -134,26 +140,41 @@ GitHub Actions offer agentless and containerized build environments, where build
 ## Maven/Gradle Wrapper
 These wrappers ensure that the correct version of the build script engine is used, regardless of what's installed on the build agent. It simplifies build processes and ensures consistency across environments.
 
+## Pair Programming
+Pair Programming is an agile software development technique where two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. It's an alternative to slower pull request processes, facilitating real-time code review and collaboration.
+
+## Tip #13: Incorporating Pair Programming
+Incorporate Pair Programming into your development flow to expedite the code review process. If Pair Programming is utilized, you may skip the formal pull request or immediately approve it as part of the Pair Programming session. Make sure to document who you paired with in the story comments or in the pull request itself for transparency.
+- Deciding When to Pair Program: Standups are an excellent time to decide on pair programming sessions. It's when you can discuss who needs support and align pairs based on the day's tasks.
+- Picking the Right Pair: If you're struggling with a particular codebase, pair up with the person who wrote it. This direct transfer of knowledge is incredibly efficient.
+- Remote Pairing Options: Although in-person pairing is ideal for its direct interaction, remote pairing is a viable option with tools like Visual Studio Code Live Share, Zoom, or Tuple. It ensures that geographical distance doesn't hinder the collaborative effort.
+- Focus and Productivity: Pair programming naturally boosts focus. Each partner keeps the other on task, minimizing distractions and preventing the tendency to drift off into less productive activities.
+- Ego Aside: Successful pair programming requires setting your ego aside. It's about learning and solving problems together. If someone is resistant to pairing, it's important to understand why and address any underlying issues.
+- A Valuable Tool: Consider pair programming as a valuable tool in your development toolbox. It's not just about coding together; it's a practice that enhances code quality, team knowledge, and project momentum.
+
+## Pair Programming Challenge
+Challenge yourself and your team to try pair programming on your engagements. Set goals to pair program a certain number of times per week and reflect on the benefits and challenges. It's a practice that, when embraced, can significantly improve the development process and team dynamics. Encourage sharing experiences and tips within the team to make the most out of this collaborative approach.
+
 ## Incoming Webhook
 An incoming webhook is a simple way to post messages from external sources into platforms like Microsoft Teams. It allows applications to send automated messages or updates into a Teams channel.
 
-## Tip #13: Leverage Incoming Webhooks
+## Tip #14: Leverage Incoming Webhooks
 Utilize incoming webhooks for quick alerts in DevOps processes, such as build failures or updates, in collaboration tools like MS Teams and Slack.
 
-## Tip #14: Monitor Dependencies with Webhooks
+## Tip #15: Monitor Dependencies with Webhooks
 Use webhooks to automatically notify relevant teams when there are issues with APIs or dependencies they manage, enhancing cross-team communication and issue resolution.
 
 *Nothing motivates a quick fix quite like a webhook-triggered rage icon popping up in your chat every time an API breaks. It's like a virtual 'fix-it' nudge!*
 
-## Tip #15: Use Gradle/Maven Wrapper for Build Agents
+## Tip #16: Use Gradle/Maven Wrapper for Build Agents
 Implement Gradle or Maven wrappers in your projects to ensure build agents don't require specific versions of Gradle or Maven, facilitating smoother builds.
 
-## Tip #16: Incorporate CI/CD from Day One
+## Tip #17: Incorporate CI/CD from Day One
 Integrate Continuous Integration and Continuous Deployment (CI/CD) into your projects, personal or public, from the start. Set up build-on-commit with notifications.
 
 *Setting up CI/CD is like leaving yourself a treasure map. When you return to a project after months, you'll find the 'X' marking 'how to build this thing.'*
 
-## Tip #17: Notifications on New Broken Builds
+## Tip #18: Notifications on New Broken Builds
 Set up notifications for new broken builds in team projects. Encourage team members to promptly fix or rollback changes if the issue isn't resolved quickly. This practice fosters a culture of accountability and rapid response.
 
 # Backlog of Topics
